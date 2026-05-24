@@ -4,7 +4,6 @@ body{
     font-family: 'Courier New', Courier, monospace;
 }
 
-
 header{
     background-color: rgb(128, 128, 0);
     color: #fff;
@@ -15,10 +14,6 @@ header{
 header h1, header p{
     margin: 0;
 }
-
-
-
-
 
 .Pea{
     text-align: center;
