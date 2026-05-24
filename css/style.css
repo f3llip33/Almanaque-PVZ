@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+header{
+    background-color: rgb(128, 128, 0);
+    color: #fff;
+    padding: 20px;
+
+}
+
+header h1, header p{
+    margin: 0;
+}
+
+
+
+
+
+.Pea{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.plants h2{
+    color: #9ACD32;
+}
+
+.Chomper{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto; 
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.Sun{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%
+}
+
+.Cactus{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.zombies h2{
+    color: #7B68EE;
+}
+
+.foot{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;
+}
+
+.engin{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;
+}
+
+.Scientist{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;
+}
+
+.Star{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;
+}
+
+footer{
+    text-align: center;
+}
+
+@media (max-width: 768px){
+    .Pea{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .Chomper{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .Sun{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .Cactus{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .foot{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .engin{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .Scientist{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .Star{
+        margin: 20px;
+        padding: 15px;
+    }
+
+    img{
+        width: 150px;
+    }
+
+    header h1{
+        font-size: 2rem;
+    }
+
+    header p{
+        font-size: 1rem;
+    }
+}
