@@ -14,7 +14,7 @@
     <main>
         <section class="plants">
             <h2 class="leaf">Plantas</h2>
-            <div class="Pea">
+            <div class="Pea" id="pea">
                 <h2>Disparervilha</h2>
                 <img src="./imgs/PeashooterGW1.webp" alt="peashooter">
                 <p>Planta Que tem como papel principal ser a Linha de Frente
@@ -24,8 +24,9 @@
                     que faz com que a Disparervilha tenha um aumento de velocidade e pulo por um tempo
                     determinado de 30 segundos.
                 </p>
+                <button class="bpea" onclick="mudarErvilha()">Origem</button>
             </div>
-            <div class="Chomper">
+            <div class="Chomper" id="cho">
                 <h2>Carnívora</h2>
                 <img src="./imgs/ChomperGW1.webp" alt="chomper">
                 <p>Planta de Linha de frente que tem como objetivo eliminar
@@ -36,8 +37,9 @@
                     erva-espinho, uma armadilha que ao ser acionada prenda o zumbi deixando vulnéravel e
                     possível de devorar.
                 </p>
+                <button class="bchomper" onclick="mudarCarnivora()">Origem</button>
             </div>
-            <div class="Sun">
+            <div class="Sun" id="son">
                 <h2>Girassol</h2>
                 <img src="./imgs/SunflowerGW1.webp" alt="sunflower">
                 <p>Planta capaz de curar seus aliados servindo como uma suporte porém Que
@@ -47,8 +49,9 @@
                     lançar um laser poderoso nos zumbis e por fim a flor de cura, um vaso capaz de 
                     curar quem estiver perto dele.
                 </p>
+                <button class="bsun" onclick="mudarSunflower()">Origem</button>
             </div>
-            <div class="Cactus">
+            <div class="Cactus" id="cactsus">
                 <h2>Cacto</h2>
                 <img src="./imgs/CactusGW1.webp" alt="cactus">
                 <p> Um sniper habilidoso capaz de eliminar zumbis de longa distancia
@@ -58,11 +61,12 @@
                     passarem por aquele caminho. E por fim seu dronalho, um alho voador que atira nos zumbis e
                     que também pode lançar um morteiro de milho que bombardeia a região selecionada.
                 </p>
+                <button class="bcac" onclick="mudarCactus()">Origem</button>
             </div>
         </section>
         <section class="zombies">
             <h2>Zumbis</h2>
-            <div class="foot">
+            <div class="foot" id="sordadin">
                 <h2>Soldado</h2>
                 <img src="./imgs/Foot_SoldierGW1.webp" alt="foot-soldier">
                 <p>O principal zumbi de linha de frente, que usa uma arma semelhante a um rifle
@@ -72,8 +76,9 @@
                     que faz com que o Soldado pule alto para alcançar prédios ou casas e por fim
                     o ZPG um missil capaz de matar qualquer planta ao acerta-la.
                 </p>
+                <button class="bsoldier" onclick="mudarSoldado()">Origem</button>
             </div>
-            <div class="engin">
+            <div class="engin" id="engei">
                 <h2>Engenheiro</h2>
                 <img src="./imgs/EngineerGW1.webp" alt="engineer">
                 <p>O Grande mestre da construção de portais um zumbi que ajuda seu time
@@ -83,8 +88,9 @@
                     bombardeio em uma região. E por fim sua britadeira que o ajuda a se locomover mais rapido
                     para o local do teleporte ou para o objetivo.
                 </p>
+                <button class="bengen" onclick="mudarEngenheiro()">Origem</button>
             </div>
-            <div class="Scientist">
+            <div class="Scientist" id="sci">
                 <h2>Cientista</h2>
                 <img src="./imgs/ScientistGW1.webp" alt="scientist">
                 <p>O médico do time que tem uma arma de curto alcance para dilacerar
@@ -95,8 +101,9 @@
                     surpresa inimigos, e por fim uma estação de cura um equipamento que
                     ao ser colocado no chão é capaz de curar seus aliados em alguns segundos.
                 </p>
+                <button class="bscience" onclick="mudarCientista()">Origem</button>
             </div>
-            <div class="Star">
+            <div class="Star" id="sherek">
                 <h2>All-Star</h2>
                 <img src="./imgs/All-StarGW1.webp" alt="all-star">
                 <p>O casca grossa da equipe do Zumbis, um tank capaz que aguentar
@@ -108,12 +115,14 @@
                     zumbinho bomba que ao ser lançado explode e deruba plantas ao redor
                     da explosão.
                 </p>
+                <button class="ball" onclick="mudarAllstar()">Origem</button>
             </div>
         </section>
         <footer>
             <hr>
             © Copyright - 2026: Almanaque
         </footer>
+        <script src="./js/script.js"></script>
     </main>
     
 </body>

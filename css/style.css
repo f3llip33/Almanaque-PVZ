@@ -24,6 +24,14 @@ header h1, header p{
     width: 80%;
 }
 
+.bpea{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 .plants h2{
     color: #9ACD32;
 }
@@ -37,6 +45,14 @@ header h1, header p{
     width: 80%;
 }
 
+.bchomper{
+   background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
 .Sun{
     text-align: center;
     border: solid black;
@@ -46,6 +62,14 @@ header h1, header p{
     width: 80%
 }
 
+.bsun{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 .Cactus{
     text-align: center;
     border: solid black;
@@ -53,6 +77,14 @@ header h1, header p{
     background-color: darkgreen;
     color: #fff;
     width: 80%;
+}
+
+.bcac{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
 }
 
 .zombies h2{
@@ -68,6 +100,14 @@ header h1, header p{
     width: 80%;
 }
 
+.bsoldier{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 .engin{
     text-align: center;
     border: solid black;
@@ -75,6 +115,14 @@ header h1, header p{
     background-color: rgb(75, 0, 130);
     color: #fff;
     width: 80%;
+}
+
+.bengen{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
 }
 
 .Scientist{
@@ -86,6 +134,14 @@ header h1, header p{
     width: 80%;
 }
 
+.bscience{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 .Star{
     text-align: center;
     border: solid black;
@@ -93,6 +149,14 @@ header h1, header p{
     background-color: rgb(75, 0, 130);
     color: #fff;
     width: 80%;
+}
+
+.ball{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
 }
 
 footer{
