@@ -3,6 +3,7 @@
     --roxo: rgb(75, 0, 130);
     --marrom: rgb(128, 58, 0);
     --amarelo: #ffd102;
+    --branco: #fff;
 }
 
 
@@ -14,14 +15,32 @@ body{
 }
 
 header{
-    background-color: rgb(128, 58, 0);
-    color: #ffd102;
+    background-color: var(--marrom);
+    color: #fff;
     padding: 20px;
-
+    text-align: center;
 }
 
 header h1, header p{
     margin: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffd102;
+    font-size: medium;
+    transform: 0.01s;
+}
+
+.menu a:hover{
+    color: var(--branco);
 }
 
 .Pea{
