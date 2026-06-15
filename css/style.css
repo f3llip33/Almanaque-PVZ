@@ -115,6 +115,57 @@ header h1, header p{
     border: solid;
 }
 
+.Citron{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.bcitron{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
+.Rose{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%; 
+}
+
+.brose{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Corn{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.bcorn{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
 .zombies h2{
     color: #7B68EE;
 }
@@ -185,6 +236,57 @@ header h1, header p{
     border-radius: 10px;
     width: 100px;
     border: solid;
+}
+
+.Imp{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;  
+}
+
+.bimp{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Super{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;  
+}
+
+.bsuper{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;  
+}
+
+.Pirate{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%; 
+}
+
+.bpirate{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;   
 }
 
 footer{

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanaque Plants Vs. Zombies</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Almanaque</h1>
+        <p>Veja a Descrição das duas equipes.</p>
+         <nav>
+            <ul class="menu">
+                <li><a href="./index.html">GW1</a></li>
+                <li><a href="./pages/gw2.html">GW2</a></li>
+                <li><a href="#">BFN</a></li>
+                <li><a href="#">Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="plants">
+            <h2 class="leaf">Plantas</h2>
+            <div class="Citron" id="citron">
+                <h2>Citrinador</h2>
+                <img src="../imgs/CitronGW2.webp" alt="citrinador">
+                <p>O Tanque da equipe capaz de usar um laser infinito que superaquece depois de um certo tempo
+                    suas habilidades são seu escudo que pode bloquear tiro e projeteís dos zumbis. O Pêss E.M
+                    um pessêgo que ao atingir um zumbi deixa ele atordoado tornando-o incapaz de atirar  e usar habilidades
+                    e por fim ele pode virar uma bola que pode se locomover e derrubar os zumbis.
+                </p>
+                <button class="bcitron" onclick="mudarCitron()">Origem</button>
+            </div>
+            <div class="Rose" id="rose">
+                <h2>Rosa</h2>
+                <img src="../imgs/RoseGW2.webp" alt="rosa">
+                <p>Planta mágica capaz de atirar espinhos teleguiados e planar no ar.
+                    Tem habilidades mágicas como atrasar um zumbi, transformar ele em cabra
+                    ou entrar num enigma arcano que deixa ela imortal por um tempo e pode
+                    causar dano.
+                </p>
+                <button class="brose" onclick="mudarRosa()">Origem</button>
+            </div>
+            <div class="Corn" id="corn">
+                <h2>Coronel Milho</h2>
+                <img src="../imgs/Kernel_CornGW2.webp" alt="milho">
+                <p>Planta de guerra que usa duas metralhodoras que grãos de milho para
+                    atacar os zumbis. Suas habilidades são: seu bombardeio de manteiga
+                    que explode zumbis, um salto onde le metralha quem está embaixo dele
+                    e dois grãos explosivos que explodem o zumbi que for acertado.
+                </p>
+                <button class="bcorn" onclick="mudarMilho()">Origem</button>
+            </div>
+        </section>
+        <section class="zombies">
+            <h2>Zumbis</h2>
+            <div class="Imp" id="imp">
+                <h2>Zumbinho</h2>
+                <img src="../imgs/ImpGW2.webp" alt="zumbinho">
+                <p>Pequeno zumbi que tem pistolas velozes e um jetpack que faz com
+                    que ele tenha um pulo duplo, Suas habilidades são: uma bomba
+                    de gravidade que deixa plantas flutando imobilizando elas,
+                    um giro aonde ele começa a rodar e atirar que nem um lunático
+                    e por fim seu robô-z um mecha poderoso que usa mísseis e pode
+                    pisar bem forte no chão além de atirar com uma metralhadora
+                    em sua mão.
+                </p>
+                <button class="bimp" onclick="mudarImp()">Origem</button>
+            </div>
+            <div class="Super" id="super">
+                <h2>SuperMioloz</h2>
+                <img src="../imgs/Super_BrainzGW2.webp" alt="supermioloz">
+                <p>Um grande super héroi que usa seus punhos para socar as plantas
+                    e um raio laser que pode superaquecer se usar muito. Suas grandes
+                    habilidades são: seu chute heroíco que empurra as plantas, um giro
+                    que causa dano as plantas que estão ao redor e por fim uma super
+                    bola que ao acertar uma planta causa um bom dano.
+                </p>
+                <button class="bsuper" onclick="mudarIneedahero()">Origem</button>
+            </div>
+            <div class="Pirate" id="pirate">
+                <h2>Capitão Barbamorta</h2>
+                <img src="../imgs/Captain_DeadbeardGW2.webp" alt="capitaobarbamorta">
+                <p>Um grande pirata que usa uma arma que atira a longa distância e que
+                    a curta distância pode ser usada como uma doze, suas habilidades são:
+                    um barril explosivo que ao ser estourado derruba plantas ao redor,
+                    um canhão gigante com disparos limitados e por fim um papagaio semelhante
+                    ao dronalho do cacto que também tem um explosivo que causa dano em àrea.
+                </p>
+                <button class="bpirate" onclick="mudarPirata()">Origem</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        © Copyright - 2026: Almanaque
+    </footer>
+    <script src="../js/script.js"></script>
+</body>
+</html>
