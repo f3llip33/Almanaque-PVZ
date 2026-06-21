@@ -84,3 +84,22 @@ function mudarPirata() {
     "Zumbi inspirado nos zumbis pirata do jogo: Plants vs Zombies 2"
 }
 
+function mudarHeroi() {
+    document.getElementById('hero').innerText =
+    "Zumbi original do jogo"
+}
+
+function mudarPatinadora() {
+    document.getElementById('patinadora').innerText =
+    "Zumbi inspirada nas patinadoras do turnê idade da juba do Jogo: Plants vs Zombies 2"
+}
+
+function mudarCadete() {
+    document.getElementById('espacial').innerText =
+    "Zumbi original do jogo"
+}
+
+function mudarBruxo() {
+    document.getElementById('bruxo').innerText =
+    "Zumbi inspirado no mago da idade das trevas do Jogo: Plants vs Zombies 2"
+}

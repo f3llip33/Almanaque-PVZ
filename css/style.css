@@ -340,6 +340,74 @@ header h1, header p{
     border: solid;   
 }
 
+.Hero{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;  
+}
+
+.bhero{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Patinadora{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%; 
+}
+
+.bpatins{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Espacial{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%; 
+}
+
+.bspace{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Bruxo{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%; 
+}
+
+.bwizard{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 footer{
     text-align: center;
 }
