@@ -166,6 +166,57 @@ header h1, header p{
     border: solid; 
 }
 
+.Night{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%; 
+}
+
+.bnight{
+   background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+} 
+
+.Boca{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%; 
+}
+
+.bsnap{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
+.Acorn{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%; 
+}
+
+.bacorn{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid;
+}
+
 .zombies h2{
     color: #7B68EE;
 }

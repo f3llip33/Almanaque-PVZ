@@ -34,6 +34,21 @@ function mudarMilho() {
     "Planta criada em 2009 no Jogo: Plants vs Zombies, Sendo encontrada no telhado"
 }
 
+function mudarTouquinha() {
+    document.getElementById('night').innerText =
+    "Planta criada em 2016 no Jogo: Plants vs Zombies Heroes."
+}
+
+function mudarDragao() {
+    document.getElementById('boca').innerText =
+    "Planta criada em 2013 no Jogo: Plants vs Zombies 2 encontrada no mar dos piratas."
+}   
+
+function mudarBolota() {
+    document.getElementById('acorn').innerText =
+    "Planta original do Jogo"
+}
+
 function mudarSoldado() {
     document.getElementById('sordadin').innerText =
     "Zumbi criado para esse jogo, servindo como classico soldado em hero shotter"

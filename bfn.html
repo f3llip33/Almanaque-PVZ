@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Almanaque Plants Vs. Zombies</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Almanaque</h1>
+        <p>Veja a Descrição das duas equipes.</p>
+         <nav>
+            <ul class="menu">
+                <li><a href="./index.html">GW1</a></li>
+                <li><a href="./pages/gw2.html">GW2</a></li>
+                <li><a href="./bfn.html">BFN</a></li>
+                <li><a href="#">Extra</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+     <section class="plants">
+        <h2 class="leaf">Plantas</h2>
+        <div class="Night" id="night">
+            <h2>Touquinha</h2>
+            <img src="./imgs/Night_CapBfN.webp" alt="touquinha">
+            <p>Um cogumelo ninja que funciona como um grande canhão de vidro,
+                Suas habilidades são a esfera sombria que deixa ela e seus
+                aliados invisíveis além de deixar os zumbis confusos, sua
+                corrida invisível que ajuda atacar zumbis por trás. E por
+                fim seu kung fungo um ataque de kung fu em àrea que causa
+                um bom dano nos oponentes.
+            </p>
+            <button class="bnight" onclick="mudarTouquinha()">Origem</button>
+        </div>
+        <div class="Boca" id="boca">
+            <h2>Boca de Dragão</h2>
+            <img src="./imgs/SnapdragonBfN.webp" alt="bocadedragão">
+            <p>Uma dragão que incendeia seus inimigos com suas bolas de fogo,
+                Tem como habilidades: Uma bola de fogo azul capaz de perseguir
+                o alvo, um voo que acaba em uma cabeçada nos seus oponentes e por
+                fim uma parede de labareda de fogo que bloqueia que queima que chega
+                perto.
+            </p>
+            <button class="bsnap" onclick="mudarDragao()">Origem</button>
+        </div>
+        <div class="Acorn" id="acorn">
+            <h2>Bolota e Carvalho</h2>
+            <img src="./imgs/AcornBfN.webp" alt="bolota">
+            <img src="./imgs/OakBfN.webp" alt="carvalho">
+            <p>Bolota e seu amigo carvalho apesar de serem a mesma classe
+                são dois personagens em um. Suas habilidades são: pelo bolota
+                uma bola grudenta que causa dano razoável e um giro para os
+                lados otimo para fuga, pelo carvalho uma mega bola grudenta
+                que causa um dano gigantesco e um tronco de madeira que rola
+                em pedaços causando dano e empurrando zumbis.
+            </p>
+            <button class="bacorn" onclick="mudarBolota()">Origem</button>
+            </div>
+        </section>
+    </main>
+    <script src="./js/script.js"></script>
+</body>    
