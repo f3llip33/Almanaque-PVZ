@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Almanaque Plants Vs. Zombies</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
@@ -25,7 +25,7 @@
             <h2 class="leaf">Plantas Extras</h2>
             <div class="Tronco" id="tronco">
                 <h2>Tronco Flamejante</h2>
-                <img src="./imgs/TorchwoodGW2.webp" alt="troncoflamejante">
+                <img src="../imgs/TorchwoodGW2.webp" alt="troncoflamejante">
                 <p>Planta Do Garden warfare 2 Que inicialmente é um chefão do jogo mas que
                     ao chegar a atualização "Trials of Gnomus" virou um personagem bônus da
                     equipe das plantas aonde tem como habilidades: Seu escudo de folhas que
@@ -37,7 +37,8 @@
             </div>
             <div class="Wild" id="wild">
                 <h2>Flor Silvestre</h2>
-                <img src="./imgs/WildflowerBfN.webp" alt="florsilvestre">
+                <img src="../imgs/WildflowerBfN.webp" alt="florsilvestre">
+                <img src="../imgs/DandelionBfN.webp" alt="dentedeleao">
                 <p>Assim como o Tronco a flor silvestre era um capanga inicialmente no Battle for Neighborville
                     mas com a chegada da Atualização "Fall Festival" ela se tornou uma personagem jogavél que tem como
                     habilidade: Uma bomba de semente que causa 80 de dano ao zumbi, um vasinho aonde ela pode renascer dele
@@ -47,12 +48,38 @@
                 <button class="bwild" onclick="mudarSilvestre()">Origem</button>
             </div>
         </section>
+        <section class="zombies">
+            <h2>Zumbis Extras</h2>
+            <div class="Goat" id="goat">
+                <h2>Planador Cabra 3000</h2>
+                <img src="../imgs/Hover_Goat-3000GW2.webp" alt="planadorcabra3000">
+                <p>O Planador Cabra 3000 assim como o Tronco Flamejante chegou ao Garden Warfare 2
+                    na atualização "Trials of Gnomus" como um Personagem bônus que tem como habilidades:
+                    um raio que aumenta a força do zumbi que ele atinge o que aumenta o dano deste zumbi,
+                    um megalaser que causa bastante dano a plantas que são atingidas e por fim a cabra pode
+                    aumentar sua velocidade para se locomover mais rápido.
+                </p>
+                <button class="bgoat" onclick="mudarCabra()">Origem</button>
+            </div>
+            <div class="Tv" id="tv" >
+                <h2>Cabeça de TV</h2>
+                <img src="../imgs/TV_HeadBfN.webp" alt="cabecadetv">
+                <img src="../imgs/Yeti_ImpBfN.webp" alt="yetizin">
+                <p>O zumbi cabeça de TV veio junto com a flor silvestre na atualização "Fall Festival"
+                    e eles dois tem habilidades semelhantes com apenas algumas mudanças como: sua bombinha
+                    pode explodir direto que nem a da flor silvestre ou demorar um pouco caso não acerte
+                    ninguém. Seu balde é semelhante ao vasinho e por fim tem o zumbinho yeti que assim como
+                    o dente de leão pode ser controlado e explodir mas ele causa congelamento o que causa
+                    lentidão as plantas.
+                </p>
+                <button class="btv" onclick="mudarTV()">Origem</button>
+            </div>
+        </section>
     </main>
     <footer>
         <hr>
         © Copyright - 2026: Almanaque
     </footer>
-    <script src="js/script.js"></script>
-    
+    <script src="../js/script.js"></script>  
 </body>
 </html>

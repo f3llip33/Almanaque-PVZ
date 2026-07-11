@@ -113,3 +113,13 @@ function mudarBruxo() {
     document.getElementById('bruxo').innerText =
     "Zumbi inspirado no mago da idade das trevas do Jogo: Plants vs Zombies 2"
 }
+
+function mudarCabra() {
+    document.getElementById('goat').innerText =
+    "Zumbi inspirado na propia cabra do Garden Warfare 2"
+}
+
+function mudarTV() {
+    document.getElementById('tv').innerText =
+    "Zumbi original do jogo"
+}

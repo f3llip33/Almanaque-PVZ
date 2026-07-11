@@ -442,6 +442,40 @@ header h1, header p{
     border: solid;
 }
 
+.Goat{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%; 
+}
+
+.bgoat{
+   background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Tv{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: rgb(75, 0, 130);
+    color: #fff;
+    width: 80%;   
+}
+
+.btv{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
 footer{
     text-align: center;
 }
