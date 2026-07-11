@@ -217,6 +217,40 @@ header h1, header p{
     border: solid;
 }
 
+.Tronco{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.btronco{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
+.Wild{
+    text-align: center;
+    border: solid black;
+    margin: 40px auto;
+    background-color: darkgreen;
+    color: #fff;
+    width: 80%;
+}
+
+.bwild{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+    border: solid; 
+}
+
 .zombies h2{
     color: #7B68EE;
 }

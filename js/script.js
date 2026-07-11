@@ -49,6 +49,16 @@ function mudarBolota() {
     "Planta original do Jogo"
 }
 
+function mudarTronco() {
+    document.getElementById('tronco').innerText =
+    "Planta inspirada no Tronco flamenjante do Jogo: Plants Vs. Zombies encontrado na fase da piscina."
+}
+
+function mudarSilvestre() {
+    document.getElementById('wild').innerText =
+    "Planta Original do Jogo inspirada provavelmente em flores silvestres (Meio obvio)."
+}
+
 function mudarSoldado() {
     document.getElementById('sordadin').innerText =
     "Zumbi criado para esse jogo, servindo como classico soldado em hero shotter"
