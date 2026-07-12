@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almanaque Plants Vs. Zombies</title>
+    <title>Almanaque - Plants Vs. Zombies</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="./imgs/Almanac-0.webp">
 </head>
 <body>
     <header>
@@ -12,10 +13,10 @@
         <p>Veja a Descrição das duas equipes.</p>
          <nav>
             <ul class="menu">
-                <li><a href="./index.html">GW1</a></li>
-                <li><a href="./pages/gw2.html">GW2</a></li>
-                <li><a href="../pages/bfn.html">BFN</a></li>
-                <li><a href="#">Extra</a></li>
+                <li><a href="../index.html">GW1</a></li>
+                <li><a href="./gw2.html">GW2</a></li>
+                <li><a href="./bfn.html">BFN</a></li>
+                <li><a href="./extra.html">Extra</a></li>
             </ul>
         </nav>
     </header>
@@ -25,23 +26,21 @@
         <div class="Night" id="night">
             <h2>Touquinha</h2>
             <img src="../imgs/Night_CapBfN.webp" alt="touquinha">
-            <p>Um cogumelo ninja que funciona como um grande canhão de vidro,
-                Suas habilidades são a esfera sombria que deixa ela e seus
-                aliados invisíveis além de deixar os zumbis confusos, sua
-                corrida invisível que ajuda atacar zumbis por trás. E por
-                fim seu kung fungo um ataque de kung fu em àrea que causa
-                um bom dano nos oponentes.
+            <p> Um cogumelo ninja que funciona como um verdadeiro canhão de vidro. Suas habilidades são:
+                Esfera Sombria, que deixa ele e seus aliados invisíveis, além de confundir os zumbis;
+                Corrida Invisível, que o ajuda a atacar os zumbis por trás;
+                e, por fim, Kung Fungo, um ataque de kung fu em área que causa um grande dano aos oponentes.
             </p>
             <button class="bnight" onclick="mudarTouquinha()">Origem</button>
         </div>
         <div class="Boca" id="boca">
             <h2>Boca de Dragão</h2>
             <img src="../imgs/SnapdragonBfN.webp" alt="bocadedragão">
-            <p>Uma dragão que incendeia seus inimigos com suas bolas de fogo,
-                Tem como habilidades: Uma bola de fogo azul capaz de perseguir
-                o alvo, um voo que acaba em uma cabeçada nos seus oponentes e por
-                fim uma parede de labareda de fogo que bloqueia que queima que chega
-                perto.
+            <p> Um dragão que incendeia seus inimigos com suas bolas de fogo.
+                Suas habilidades são: Bola de Fogo Azul, capaz de perseguir o alvo;
+                Voo Flamejante, que termina com uma cabeçada em seus oponentes;
+                e, por fim, uma Parede de Labaredas,
+                uma barreira de fogo que bloqueia a passagem e queima quem se aproxima.
             </p>
             <button class="bsnap" onclick="mudarDragao()">Origem</button>
         </div>
@@ -49,37 +48,37 @@
             <h2>Bolota e Carvalho</h2>
             <img src="../imgs/AcornBfN.webp" alt="bolota">
             <img src="../imgs/OakBfN.webp" alt="carvalho">
-            <p>Bolota e seu amigo carvalho apesar de serem a mesma classe
-                são dois personagens em um. Suas habilidades são: pelo bolota
-                uma bola grudenta que causa dano razoável e um giro para os
-                lados otimo para fuga, pelo carvalho uma mega bola grudenta
-                que causa um dano gigantesco e um tronco de madeira que rola
-                em pedaços causando dano e empurrando zumbis.
+            <p> Bolota e seu amigo Carvalho, apesar de serem da mesma classe, são dois personagens em um só.
+                Suas habilidades são: pelo Bolota, uma Bola Grudenta, que causa dano razoável,
+                e um Giro, ótimo para fuga;
+                pelo Carvalho, uma Mega Bola Grudenta, que causa um dano gigantesco,
+                e um Tronco de Madeira, que rola em pedaços, causando dano e empurrando os zumbis.
             </p>
             <button class="bacorn" onclick="mudarBolota()">Origem</button>
             </div>
         </section>
+        <hr>
         <section class="zombies">
             <h2>Zumbis</h2>
             <div class="Hero" id="hero">
                 <h2>Heroi dos Anos 80</h2>
                 <img src="../imgs/80s_Action_HeroBfN.webp" alt="heroidosanos80">
-                <p>Direto dos anos 80 esse zumbi usa um grande arco e flecha para
-                    atacar as plantas. Tem como habilidade sua dinamite que serve para ele
-                    dar uma fuga nas planta, um passeio em um grande míssel que ataca plantas
-                    e por fim mísseis teleguiados que aumentam a precisão de acordo com o número
-                    de acertos do arco.
+                <p> Direto dos anos 80, esse zumbi usa um grande arco e flecha para atacar as plantas. 
+                    Suas habilidades são: Dinamite, que serve para afastar as plantas e criar uma fuga;
+                    Passeio de Míssil, no qual ele utiliza um grande míssil para atacar as plantas;
+                    e, por fim, Mísseis Teleguiados, que aumentam sua precisão de acordo com o número de acertos
+                    realizados com o arco.
                 </p>
                 <button class="bhero" onclick="mudarHeroi()">Origem</button>
             </div>
             <div class="Patinadora" id="patinadora">
                 <h2>Patinadora Eletrica</h2>
                 <img src="../imgs/Electric_SlideBfN.webp" alt="patinadoraeletrica">
-                <p>Essa patinadora usa ataques eletricos que pode causar dano em àrea.
-                    Suas habilidades são: um imã que joga pra longe as plantas que ficam
-                    perto dele, um tornado eletrico que explode em contato com as plantas
-                    e por fim a patinadora se tranforma numa esfera Eletrica que não sofre
-                    dano, otima para fuga.
+                <p> Essa patinadora usa ataques elétricos que podem causar dano em área. Suas habilidades são:
+                    Ímã, que arremessa para longe as plantas que ficam perto dele; 
+                    Tornado Elétrico, que explode ao entrar em contato com as plantas;
+                    e, por fim, a Patinadora, que se transforma em uma esfera elétrica que não sofre dano,
+                    sendo ótima para fuga.
                 </p>
                 <button class="bpatins" onclick="mudarPatinadora()">Origem</button>
             </div>
@@ -87,25 +86,25 @@
                 <h2>Cadete e Estação Espacial</h2>
                 <img src="../imgs/Space_CadetBfN.webp" alt="cadeteespacial">
                 <img src="../imgs/Space_StationBfN.webp" alt="estacaoespacial">
-                <p>A cadete e a estação espacial assim como o bolota e carvalho
-                    são dois personagens em um só, as habilidades como cadete são
-                    um raio vermelho que causa um bom dano e uma grande queda que pode
-                    esmagar a planta embaixo, já como estação você tem um raio que oblitera
-                    quem passa embaixo e um potencializador de disparo que aumenta a cadência
-                    de tiro da arma primaria da estação.
+                <p>A Cadete e a Estação Espacial, assim como Bolota e Carvalho, são dois personagens em um só.
+                    Suas habilidades como Cadete são: Raio Vermelho, que causa um bom dano;
+                    e Grande Queda, que pode esmagar a planta que estiver embaixo.
+                    Já como Estação Espacial, possui um raio que oblitera quem passa por baixo dela e
+                    um Potencializador de Disparo, que aumenta a cadência de tiro da arma primária da estação.
                 </p>
                 <button class="bspace" onclick="mudarCadete()">Origem</button>
             </div>
             <div class="Bruxo" id="bruxo">
                 <h2>Bruxo</h2>
                 <img src="../imgs/WizardBfN.webp" alt="bruxo">
-                <p>O bruxo é um zumbi extra que você pode ganhar comprando por moedas
-                    ou completando seu mapa de prêmios que ocorre sempre no mês de março
-                    tem como suas habilidades: uma poção que bloqueia o pulo e as habilidades
-                    das plantas e deixa os zumbis imune por um 3 segundos, um feitiço
-                    poderoso que persegue plantas em forma de orbe e por fim ele é capaz
-                    de virar uma bola de cristal que sobe na cabeça de um zumbi para atacar
-                    lá de cima.
+                <p> O Bruxo é um zumbi extra que você pode ganhar
+                    comprando-o por moedas ou completando seu mapa de prêmios,
+                    que ocorre sempre no mês de março. Suas habilidades são:
+                    Poção, que bloqueia o pulo e as habilidades das plantas,
+                    além de deixar os zumbis imunes por 3 segundos;
+                    Feitiço Poderoso, que persegue as plantas em forma de orbe;
+                    e, por fim, ele é capaz de se transformar em uma Bola de Cristal, 
+                    que sobe na cabeça de um zumbi para atacar de cima.
                 </p>
                 <button class="bwizard" onclick="mudarBruxo()">Origem</button>
             </div>
@@ -114,5 +113,5 @@
     <footer>
         © Copyright - 2026: Almanaque
     </footer>
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>    

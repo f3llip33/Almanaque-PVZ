@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almanaque Plants Vs. Zombies</title>
+    <title>Almanaque - Plants Vs. Zombies</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" type="image/png" href="./imgs/Almanac-0.webp">
 </head>
 <body>
     <header>
@@ -12,10 +13,10 @@
         <p>Veja a Descrição das duas equipes.</p>
          <nav>
             <ul class="menu">
-                <li><a href="./index.html">GW1</a></li>
-                <li><a href="./pages/gw2.html">GW2</a></li>
-                <li><a href="#">BFN</a></li>
-                <li><a href="#">Extra</a></li>
+                <li><a href="../index.html">GW1</a></li>
+                <li><a href="./gw2.html">GW2</a></li>
+                <li><a href="./bfn.html">BFN</a></li>
+                <li><a href="./extra.html">Extra</a></li>
             </ul>
         </nav>
     </header>
@@ -26,12 +27,14 @@
             <div class="Tronco" id="tronco">
                 <h2>Tronco Flamejante</h2>
                 <img src="../imgs/TorchwoodGW2.webp" alt="troncoflamejante">
-                <p>Planta Do Garden warfare 2 Que inicialmente é um chefão do jogo mas que
-                    ao chegar a atualização "Trials of Gnomus" virou um personagem bônus da
-                    equipe das plantas aonde tem como habilidades: Seu escudo de folhas que
-                    reduz o dano que ele recebe porém o deixa mais lento, seu bafo de fogo que
-                    queima quem estiver ao seu alcance e por fim sua fúria gigatronica aonde suas
-                    chamas ficam azuis e ele atira mais rápido e causa dano contínuo de fogo.
+                <p> Planta de Garden Warfare 2 que inicialmente era um chefão do jogo,
+                    mas que, após a atualização "Trials of Gnomus", 
+                    tornou-se um personagem bônus da equipe das plantas. 
+                    Suas habilidades são: Escudo de Folhas, que reduz o dano recebido,
+                    porém o deixa mais lento;
+                    Bafo de Fogo, que queima quem estiver ao seu alcance; 
+                    e, por fim, sua Fúria Gigatrônica, na qual suas chamas ficam azuis,
+                    fazendo com que ele atire mais rápido e cause dano contínuo de fogo.
                 </p>
                 <button class="btronco" onclick="mudarTronco()">Origem</button>
             </div>
@@ -39,25 +42,28 @@
                 <h2>Flor Silvestre</h2>
                 <img src="../imgs/WildflowerBfN.webp" alt="florsilvestre">
                 <img src="../imgs/DandelionBfN.webp" alt="dentedeleao">
-                <p>Assim como o Tronco a flor silvestre era um capanga inicialmente no Battle for Neighborville
-                    mas com a chegada da Atualização "Fall Festival" ela se tornou uma personagem jogavél que tem como
-                    habilidade: Uma bomba de semente que causa 80 de dano ao zumbi, um vasinho aonde ela pode renascer dele
-                    ou seja aonde o vaso estiver você poderá nascer deste vaso. E por fim o Dente de leão outro capanga
-                    que virou uma habilidade aonde você o controla para poder explodir e pegar de surpresa os zumbis.
+                <p> Assim como o Tronco, a Flor Silvestre era inicialmente um capanga em Battle for Neighborville,
+                    mas, com a chegada da atualização "Fall Festival",
+                    ela se tornou uma personagem jogável que possui as seguintes habilidades:
+                    Bomba de Semente, que causa 80 de dano ao zumbi; Vasinho, no qual ela pode renascer,
+                    ou seja, onde o vaso estiver, você poderá nascer a partir dele; 
+                    e, por fim, o Dente-de-Leão, outro capanga que se tornou uma habilidade,
+                    permitindo que você o controle para explodir e pegar os zumbis de surpresa.
                 </p>
                 <button class="bwild" onclick="mudarSilvestre()">Origem</button>
             </div>
         </section>
+        <hr>
         <section class="zombies">
             <h2>Zumbis Extras</h2>
             <div class="Goat" id="goat">
                 <h2>Planador Cabra 3000</h2>
                 <img src="../imgs/Hover_Goat-3000GW2.webp" alt="planadorcabra3000">
-                <p>O Planador Cabra 3000 assim como o Tronco Flamejante chegou ao Garden Warfare 2
-                    na atualização "Trials of Gnomus" como um Personagem bônus que tem como habilidades:
-                    um raio que aumenta a força do zumbi que ele atinge o que aumenta o dano deste zumbi,
-                    um megalaser que causa bastante dano a plantas que são atingidas e por fim a cabra pode
-                    aumentar sua velocidade para se locomover mais rápido.
+                <p> O Planador Cabra 3000, assim como o Tronco Flamejante, chegou ao Garden Warfare 2 na atualização
+                    "Trials of Gnomus" como um personagem bônus que possui as seguintes habilidades:
+                    Raio de Fortalecimento, que aumenta a força do zumbi atingido,
+                    fazendo com que ele cause mais dano; Megalaser, que causa bastante dano às plantas atingidas;
+                    e, por fim, a Cabra, que pode aumentar sua velocidade para se locomover mais rapidamente.
                 </p>
                 <button class="bgoat" onclick="mudarCabra()">Origem</button>
             </div>
@@ -65,12 +71,14 @@
                 <h2>Cabeça de TV</h2>
                 <img src="../imgs/TV_HeadBfN.webp" alt="cabecadetv">
                 <img src="../imgs/Yeti_ImpBfN.webp" alt="yetizin">
-                <p>O zumbi cabeça de TV veio junto com a flor silvestre na atualização "Fall Festival"
-                    e eles dois tem habilidades semelhantes com apenas algumas mudanças como: sua bombinha
-                    pode explodir direto que nem a da flor silvestre ou demorar um pouco caso não acerte
-                    ninguém. Seu balde é semelhante ao vasinho e por fim tem o zumbinho yeti que assim como
-                    o dente de leão pode ser controlado e explodir mas ele causa congelamento o que causa
-                    lentidão as plantas.
+                <p> O Zumbi Cabeça de TV veio junto com a Flor Silvestre na atualização "Fall Festival",
+                    e os dois possuem habilidades semelhantes, com apenas algumas mudanças.
+                    Suas habilidades são: Bombinha, que pode explodir instantaneamente,
+                    assim como a da Flor Silvestre, ou demorar um pouco caso não acerte ninguém;
+                    Balde, que é semelhante ao Vasinho; e, por fim, o Zumbinho Yeti, 
+                    que, assim como o Dente-de-Leão,
+                    pode ser controlado e explodir, mas causa congelamento,
+                    deixando as plantas mais lentas.
                 </p>
                 <button class="btv" onclick="mudarTV()">Origem</button>
             </div>
