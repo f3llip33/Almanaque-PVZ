@@ -11,7 +11,7 @@
     <header>
         <h1>Almanaque</h1>
         <p>Veja a Descrição das duas equipes.</p>
-         <nav>
+        <nav>
             <ul class="menu">
                 <li><a href="../index.html">GW1</a></li>
                 <li><a href="./gw2.html">GW2</a></li>
@@ -21,9 +21,10 @@
         </nav>
     </header>
     <main>
-        <section class="plants">
+        <section id="plants">
             <h2 class="leaf">Plantas</h2>
-            <div class="Citron" id="citron">
+            <hr class="barra">
+            <div class="card-plantas" id="citron">
                 <h2>Citrinador</h2>
                 <img src="../imgs/CitronGW2.webp" alt="citrinador">
                 <p> O Tanque da equipe capaz de usar um laser infinito que superaquece depois de um certo tempo
@@ -33,7 +34,7 @@
                 </p>
                 <button class="bcitron" onclick="mudarCitron()">Origem</button>
             </div>
-            <div class="Rose" id="rose">
+            <div class="card-plantas" id="rose">
                 <h2>Rosa</h2>
                 <img src="../imgs/RoseGW2.webp" alt="rosa">
                 <p> Planta mágica capaz de atirar espinhos teleguiados e planar pelo ar. 
@@ -43,7 +44,7 @@
                 </p>
                 <button class="brose" onclick="mudarRosa()">Origem</button>
             </div>
-            <div class="Corn" id="corn">
+            <div class="card-plantas" id="corn">
                 <h2>Coronel Milho</h2>
                 <img src="../imgs/Kernel_CornGW2.webp" alt="milho">
                 <p> Planta de guerra que utiliza duas metralhadoras de grãos de milho para atacar os zumbis. 
@@ -55,9 +56,10 @@
             </div>
         </section>
         <hr>
-        <section class="zombies">
+        <section id="zombies">
             <h2>Zumbis</h2>
-            <div class="Imp" id="imp">
+            <hr class="barra">
+            <div class="card-zumbis" id="imp">
                 <h2>Zumbinho</h2>
                 <img src="../imgs/ImpGW2.webp" alt="zumbinho">
                 <p> Pequeno zumbi que possui pistolas de disparo rápido e um jetpack,
@@ -69,7 +71,7 @@
                 </p>
                 <button class="bimp" onclick="mudarImp()">Origem</button>
             </div>
-            <div class="Super" id="super">
+            <div class="card-zumbis" id="super">
                 <h2>SuperMioloz</h2>
                 <img src="../imgs/Super_BrainzGW2.webp" alt="supermioloz">
                 <p> Um grande super-herói que usa seus punhos para socar as plantas e
@@ -80,7 +82,7 @@
                 </p>
                 <button class="bsuper" onclick="mudarIneedahero()">Origem</button>
             </div>
-            <div class="Pirate" id="pirate">
+            <div class="card-zumbis" id="pirate">
                 <h2>Capitão Barbamorta</h2>
                 <img src="../imgs/Captain_DeadbeardGW2.webp" alt="capitaobarbamorta">
                 <p> Um grande pirata que utiliza uma arma de longo alcance e que, a curta distância,

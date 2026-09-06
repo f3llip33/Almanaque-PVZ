@@ -12,7 +12,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, sans-serif;
 }
 
 header{
@@ -44,440 +44,46 @@ header h1, header p{
     color: var(--branco);
 }
 
-.Pea{
+.card-plantas {
     text-align: center;
-    border: solid black;
+    border: 2px solid black;
+    background-color: #8FBC8F;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
     margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
+    padding: 20px 35px 30px;
+    box-sizing: border-box;
     width: 80%;
+    color: white;
 }
 
-.bpea{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.plants h2{
-    color: #9ACD32;
-}
-
-.Chomper{
+.card-zumbis {
     text-align: center;
-    border: solid black;
-    margin: 40px auto; 
-    background-color: darkgreen;
-    color: #fff;
+    border: 2px solid black;
+    background-color: #836FFF;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    margin: 40px auto;
+    padding: 20px 35px 30px;
+    box-sizing: border-box;
     width: 80%;
-}
-
-.bchomper{
-   background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Sun{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%
-}
-
-.bsun{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Cactus{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%;
-}
-
-.bcac{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Citron{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%;
-}
-
-.bcitron{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Rose{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%; 
-}
-
-.brose{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Corn{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%;
-}
-
-.bcorn{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Night{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%; 
-}
-
-.bnight{
-   background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-} 
-
-.Boca{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%; 
-}
-
-.bsnap{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Acorn{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%; 
-}
-
-.bacorn{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Tronco{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%;
-}
-
-.btronco{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Wild{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: darkgreen;
-    color: #fff;
-    width: 80%;
-}
-
-.bwild{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.zombies h2{
-    color: #7B68EE;
-}
-
-.foot{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;
-}
-
-.bsoldier{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.engin{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;
-}
-
-.bengen{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Scientist{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;
-}
-
-.bscience{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Star{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;
-}
-
-.ball{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Imp{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;  
-}
-
-.bimp{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Super{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;  
-}
-
-.bsuper{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;  
-}
-
-.Pirate{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%; 
-}
-
-.bpirate{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;   
-}
-
-.Hero{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;  
-}
-
-.bhero{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Patinadora{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%; 
-}
-
-.bpatins{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Espacial{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%; 
-}
-
-.bspace{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Bruxo{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%; 
-}
-
-.bwizard{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid;
-}
-
-.Goat{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%; 
-}
-
-.bgoat{
-   background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
-}
-
-.Tv{
-    text-align: center;
-    border: solid black;
-    margin: 40px auto;
-    background-color: rgb(75, 0, 130);
-    color: #fff;
-    width: 80%;   
-}
-
-.btv{
-    background-color: black;
-    color: #fff;
-    border-radius: 10px;
-    width: 100px;
-    border: solid; 
+    color: white;
 }
 
 footer{
+    text-align: center;
+}
+
+#plants{
+    text-align: center;
+}
+
+.barra{
+    width: 50%;
+    margin: auto;
+}
+
+#zombies{
     text-align: center;
 }
 

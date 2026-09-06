@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="icon" type="image/png" href="./imgs/Almanac-0.webp">
 </head>
+
 <body>
     <header>
         <h1>Almanaque</h1>
         <p>Veja a Descrição das duas equipes.</p>
-         <nav>
+        <nav>
             <ul class="menu">
                 <li><a href="./index.html">GW1</a></li>
                 <li><a href="./pages/gw2.html">GW2</a></li>
@@ -21,106 +23,128 @@
         </nav>
     </header>
     <main>
-        <section class="plants">
-            <h2 class="leaf">Plantas</h2>
-            <div class="Pea" id="pea">
+        <section id="plants">
+            <h2 class="h2-plantas">Plantas</h2>
+            <hr class="barra">
+            <div class="card-plantas" id="pea">
                 <h2>Disparervilha</h2>
                 <img src="./imgs/PeashooterGW1.webp" alt="peashooter">
-                <p> Planta que tem como papel principal ser a linha de frente contra os zumbis. 
-                    Ataca utilizando ervilhas que causam dano bruto de 35. 
-                    Suas habilidades são Ervilhadora, que é uma metralhadora que causa dano por segundo; 
-                    Bomba de Feijão, que explode em uma área causando 125 de dano; e, por fim, Hiper, 
-                    que faz com que a Disparervilha tenha um aumento de velocidade e 
-                    de pulo por um período de 30 segundos.
+                <p>
+                    A Disparervilha é uma planta que tem como principal função
+                    atuar na linha de frente contra os zumbis. <br> Ela utiliza ervilhas
+                    para atacar seus inimigos, causando <strong>35 de dano bruto</strong>
+                    por ataque.
+                </p>
+
+                <p>
+                    Além de seu ataque básico, a Disparervilha possui diferentes
+                    habilidades que aumentam <br> sua eficiência durante o combate.
+                </p>
+
+                <p>
+                    Sua primeira habilidade é a <strong>Ervilhadora</strong>, uma
+                    espécie de metralhadora que permite <br> realizar ataques rápidos
+                    e causar dano por segundo aos inimigos.
                 </p>
                 <button class="bpea" onclick="mudarErvilha()">Origem</button>
             </div>
-            <div class="Chomper" id="cho">
+            <div class="card-plantas" id="cho">
                 <h2>Carnívora</h2>
                 <img src="./imgs/ChomperGW1.webp" alt="chomper">
-                <p> Planta de linha de frente que tem como objetivo eliminar imediatamente os zumbis ao 
-                    devorá-los ou mordê-los até a morte. Suas habilidades são uma Gosma, 
-                    capaz de deixar o zumbi lento e impedir que ele use habilidades por um período de 15 segundos; 
+                <p> Planta de linha de frente que tem como objetivo eliminar imediatamente os zumbis ao
+                    devorá-los ou mordê-los até a morte. Suas habilidades são uma Gosma,
+                    capaz de deixar o zumbi lento e impedir que ele use habilidades por um período de 15 segundos;
                     uma Enterrada, capaz de fazê-la mergulhar no chão para evitar dano e pegar um zumbi de surpresa;
                     e, por último, a Erva-Espinho, uma armadilha que,
                     ao ser acionada, prende o zumbi, deixando-o vulnerável e passível de ser devorado
                 </p>
                 <button class="bchomper" onclick="mudarCarnivora()">Origem</button>
             </div>
-            <div class="Sun" id="son">
+            <div class="card-plantas" id="son">
                 <h2>Girassol</h2>
                 <img src="./imgs/SunflowerGW1.webp" alt="sunflower">
                 <p> Planta capaz de curar seus aliados, servindo como suporte,
-                    mas que ainda é capaz de atacar seus inimigos com um DPS de 10 de dano. 
+                    mas que ainda é capaz de atacar seus inimigos com um DPS de 10 de dano.
                     Suas habilidades são: Raio de Cura, capaz de curar seus aliados em um determinado raio de distância;
-                    Raio Solar, que faz com que o Girassol se plante no chão para lançar um poderoso laser contra os zumbis;
+                    Raio Solar, que faz com que o Girassol se plante no chão para lançar um poderoso laser contra os
+                    zumbis;
                     e, por fim, Flor de Cura, um vaso capaz de curar quem estiver próximo dele.
                 </p>
                 <button class="bsun" onclick="mudarSunflower()">Origem</button>
             </div>
-            <div class="Cactus" id="cactsus">
+            <div class="card-plantas" id="cactsus">
                 <h2>Cacto</h2>
                 <img src="./imgs/CactusGW1.webp" alt="cactus">
                 <p> Um sniper habilidoso, capaz de eliminar zumbis a longa distância com seus disparos perfurantes.
-                    Suas habilidades são: Batata-Mina, uma batata que, ao ser pisada por um zumbi, explode, 
+                    Suas habilidades são: Batata-Mina, uma batata que, ao ser pisada por um zumbi, explode,
                     lançando-o para o alto no processo;
                     Noz-Muralha, uma barreira de noz que impede os zumbis de passarem por aquele caminho;
-                    e, por fim, o Dronalho, um alho voador que atira nos zumbis e também pode lançar um morteiro de milho,
+                    e, por fim, o Dronalho, um alho voador que atira nos zumbis e também pode lançar um morteiro de
+                    milho,
                     bombardeando a região selecionada.
                 </p>
                 <button class="bcac" onclick="mudarCactus()">Origem</button>
             </div>
-            <hr>
         </section>
-        <section class="zombies">
+        <section id="zombies">
             <h2>Zumbis</h2>
-            <div class="foot" id="sordadin">
+            <hr class="barra">
+            <div class="card-zumbis" id="sordadin">
                 <h2>Soldado</h2>
                 <img src="./imgs/Foot_SoldierGW1.webp" alt="foot-soldier">
-                <p> O principal zumbi da linha de frente, que usa uma arma semelhante a um rifle de assalto para derrotar as plantas. 
-                    Suas habilidades são: Bomba de Fumaça, que pode bloquear a visão das plantas, deixando-as cegas e causando 2 de dano por segundo;
+                <p> O principal zumbi da linha de frente, que usa uma arma semelhante a um rifle de assalto para
+                    derrotar as plantas.
+                    Suas habilidades são: Bomba de Fumaça, que pode bloquear a visão das plantas, deixando-as cegas e
+                    causando 2 de dano por segundo;
                     Pulo Foguete, uma habilidade que faz com que o Soldado pule alto para alcançar prédios ou casas;
                     e, por fim, o ZPG, um míssil capaz de derrotar qualquer planta ao acertá-la.
                 </p>
                 <button class="bsoldier" onclick="mudarSoldado()">Origem</button>
             </div>
-            <div class="engin" id="engei">
+            <div class="card-zumbis" id="engei">
                 <h2>Engenheiro</h2>
                 <img src="./imgs/EngineerGW1.webp" alt="engineer">
-                <p> O grande mestre da construção de portais, um zumbi que ajuda sua equipe a capturar a base construindo portais. 
-                    Suas habilidades são: Alto-Falante, que atordoa as plantas ao acertá-las e pode retirar a Carnívora da terra;
+                <p> O grande mestre da construção de portais, um zumbi que ajuda sua equipe a capturar a base
+                    construindo portais.
+                    Suas habilidades são: Alto-Falante, que atordoa as plantas ao acertá-las e pode retirar a Carnívora
+                    da terra;
                     um Drone Robô, que, assim como o do Cacto, pode lançar um bombardeio em uma região;
                     e, por fim, a Britadeira, que o ajuda a se locomover mais rápido até o teleporte ou o objetivo.
                 </p>
                 <button class="bengen" onclick="mudarEngenheiro()">Origem</button>
             </div>
-            <div class="Scientist" id="sci">
+            <div class="card-zumbis" id="sci">
                 <h2>Cientista</h2>
                 <img src="./imgs/ScientistGW1.webp" alt="scientist">
-                <p> O médico da equipe, que possui uma arma de curto alcance capaz de dilacerar quem chegar perto dele. 
-                    Suas habilidades incluem: Bombola, uma bomba que gruda em qualquer superfície e até mesmo em uma planta, explodindo ao entrar em contato com o inimigo;
+                <p> O médico da equipe, que possui uma arma de curto alcance capaz de dilacerar quem chegar perto dele.
+                    Suas habilidades incluem: Bombola, uma bomba que gruda em qualquer superfície e até mesmo em uma
+                    planta, explodindo ao entrar em contato com o inimigo;
                     Teleporte, que permite alcançar aliados ou surpreender os inimigos;
-                    e, por fim, a Estação de Cura, um equipamento que, ao ser colocado no chão, é capaz de curar seus aliados em poucos segundos.
+                    e, por fim, a Estação de Cura, um equipamento que, ao ser colocado no chão, é capaz de curar seus
+                    aliados em poucos segundos.
                 </p>
                 <button class="bscience" onclick="mudarCientista()">Origem</button>
             </div>
-            <div class="Star" id="sherek">
+            <div class="card-zumbis" id="sherek">
                 <h2>All-Star</h2>
                 <img src="./imgs/All-StarGW1.webp" alt="all-star">
-                <p> O casca-grossa da equipe dos zumbis, um tanque capaz de aguentar bastante porrada com sua metralhadora giratória que dispara bolas de futebol americano.
-                    Suas habilidades são: Encontrão, que empurra as plantas, lançando-as para longe e causando 65 de dano; 
+                <p> O casca-grossa da equipe dos zumbis, um tanque capaz de aguentar bastante porrada com sua
+                    metralhadora giratória que dispara bolas de futebol americano.
+                    Suas habilidades são: Encontrão, que empurra as plantas, lançando-as para longe e causando 65 de
+                    dano;
                     Boneco de Treino, que pode bloquear os golpes dos inimigos;
-                    e, por fim, o Zumbinho-Bomba, que, ao ser lançado, explode e derruba as plantas ao redor da explosão.
+                    e, por fim, o Zumbinho-Bomba, que, ao ser lançado, explode e derruba as plantas ao redor da
+                    explosão.
                 </p>
                 <button class="ball" onclick="mudarAllstar()">Origem</button>
             </div>
         </section>
-        <footer>
-            <hr>
-            © Copyright - 2026: Almanaque
-        </footer>
-        <script src="./js/script.js"></script>
     </main>
-    
+    <footer>
+        <hr>
+        © Copyright - 2026: Almanaque
+    </footer>
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
