@@ -11,7 +11,7 @@
     <header>
         <h1>Almanaque</h1>
         <p>Veja a Descrição das duas equipes.</p>
-         <nav>
+        <nav>
             <ul class="menu">
                 <li><a href="../index.html">GW1</a></li>
                 <li><a href="./gw2.html">GW2</a></li>
@@ -21,9 +21,9 @@
         </nav>
     </header>
     <main>
-     <section class="plants">
+    <section class="plants">
         <h2 class="leaf">Plantas</h2>
-        <div class="Night" id="night">
+        <div class="card-plantas" id="night">
             <h2>Touquinha</h2>
             <img src="../imgs/Night_CapBfN.webp" alt="touquinha">
             <p> Um cogumelo ninja que funciona como um verdadeiro canhão de vidro. Suas habilidades são:
@@ -31,9 +31,9 @@
                 Corrida Invisível, que o ajuda a atacar os zumbis por trás;
                 e, por fim, Kung Fungo, um ataque de kung fu em área que causa um grande dano aos oponentes.
             </p>
-            <button class="bnight" onclick="mudarTouquinha()">Origem</button>
+            <button class="button-hero" onclick="mudarTouquinha()">Origem</button>
         </div>
-        <div class="Boca" id="boca">
+        <div class="card-plantas" id="boca">
             <h2>Boca de Dragão</h2>
             <img src="../imgs/SnapdragonBfN.webp" alt="bocadedragão">
             <p> Um dragão que incendeia seus inimigos com suas bolas de fogo.
@@ -42,9 +42,9 @@
                 e, por fim, uma Parede de Labaredas,
                 uma barreira de fogo que bloqueia a passagem e queima quem se aproxima.
             </p>
-            <button class="bsnap" onclick="mudarDragao()">Origem</button>
+            <button class="button-hero" onclick="mudarDragao()">Origem</button>
         </div>
-        <div class="Acorn" id="acorn">
+        <div class="card-plantas" id="acorn">
             <h2>Bolota e Carvalho</h2>
             <img src="../imgs/AcornBfN.webp" alt="bolota">
             <img src="../imgs/OakBfN.webp" alt="carvalho">
@@ -54,13 +54,13 @@
                 pelo Carvalho, uma Mega Bola Grudenta, que causa um dano gigantesco,
                 e um Tronco de Madeira, que rola em pedaços, causando dano e empurrando os zumbis.
             </p>
-            <button class="bacorn" onclick="mudarBolota()">Origem</button>
+            <button class="button-hero" onclick="mudarBolota()">Origem</button>
             </div>
         </section>
         <hr>
         <section class="zombies">
             <h2>Zumbis</h2>
-            <div class="Hero" id="hero">
+            <div class="card-zumbis" id="hero">
                 <h2>Heroi dos Anos 80</h2>
                 <img src="../imgs/80s_Action_HeroBfN.webp" alt="heroidosanos80">
                 <p> Direto dos anos 80, esse zumbi usa um grande arco e flecha para atacar as plantas. 
@@ -69,9 +69,9 @@
                     e, por fim, Mísseis Teleguiados, que aumentam sua precisão de acordo com o número de acertos
                     realizados com o arco.
                 </p>
-                <button class="bhero" onclick="mudarHeroi()">Origem</button>
+                <button class="button-hero" onclick="mudarHeroi()">Origem</button>
             </div>
-            <div class="Patinadora" id="patinadora">
+            <div class="card-zumbis" id="patinadora">
                 <h2>Patinadora Eletrica</h2>
                 <img src="../imgs/Electric_SlideBfN.webp" alt="patinadoraeletrica">
                 <p> Essa patinadora usa ataques elétricos que podem causar dano em área. Suas habilidades são:
@@ -80,9 +80,9 @@
                     e, por fim, a Patinadora, que se transforma em uma esfera elétrica que não sofre dano,
                     sendo ótima para fuga.
                 </p>
-                <button class="bpatins" onclick="mudarPatinadora()">Origem</button>
+                <button class="button-hero" onclick="mudarPatinadora()">Origem</button>
             </div>
-            <div class="Espacial" id="espacial">
+            <div class="card-zumbis" id="espacial">
                 <h2>Cadete e Estação Espacial</h2>
                 <img src="../imgs/Space_CadetBfN.webp" alt="cadeteespacial">
                 <img src="../imgs/Space_StationBfN.webp" alt="estacaoespacial">
@@ -92,9 +92,9 @@
                     Já como Estação Espacial, possui um raio que oblitera quem passa por baixo dela e
                     um Potencializador de Disparo, que aumenta a cadência de tiro da arma primária da estação.
                 </p>
-                <button class="bspace" onclick="mudarCadete()">Origem</button>
+                <button class="button-hero" onclick="mudarCadete()">Origem</button>
             </div>
-            <div class="Bruxo" id="bruxo">
+            <div class="card-zumbis" id="bruxo">
                 <h2>Bruxo</h2>
                 <img src="../imgs/WizardBfN.webp" alt="bruxo">
                 <p> O Bruxo é um zumbi extra que você pode ganhar
@@ -106,11 +106,12 @@
                     e, por fim, ele é capaz de se transformar em uma Bola de Cristal, 
                     que sobe na cabeça de um zumbi para atacar de cima.
                 </p>
-                <button class="bwizard" onclick="mudarBruxo()">Origem</button>
+                <button class="button-hero" onclick="mudarBruxo()">Origem</button>
             </div>
         </section>
     </main>
     <footer>
+        <hr>
         © Copyright - 2026: Almanaque
     </footer>
     <script src="../js/script.js"></script>

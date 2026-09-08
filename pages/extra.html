@@ -11,7 +11,7 @@
     <header>
         <h1>Almanaque</h1>
         <p>Veja a Descrição das duas equipes.</p>
-         <nav>
+        <nav>
             <ul class="menu">
                 <li><a href="../index.html">GW1</a></li>
                 <li><a href="./gw2.html">GW2</a></li>
@@ -24,7 +24,7 @@
         Veja Os Personagens Extras dos 3 Jogos Aqui!
         <section class="plants">
             <h2 class="leaf">Plantas Extras</h2>
-            <div class="Tronco" id="tronco">
+            <div class="card-plantas" id="tronco">
                 <h2>Tronco Flamejante</h2>
                 <img src="../imgs/TorchwoodGW2.webp" alt="troncoflamejante">
                 <p> Planta de Garden Warfare 2 que inicialmente era um chefão do jogo,
@@ -36,9 +36,9 @@
                     e, por fim, sua Fúria Gigatrônica, na qual suas chamas ficam azuis,
                     fazendo com que ele atire mais rápido e cause dano contínuo de fogo.
                 </p>
-                <button class="btronco" onclick="mudarTronco()">Origem</button>
+                <button class="button-hero" onclick="mudarTronco()">Origem</button>
             </div>
-            <div class="Wild" id="wild">
+            <div class="card-plantas" id="wild">
                 <h2>Flor Silvestre</h2>
                 <img src="../imgs/WildflowerBfN.webp" alt="florsilvestre">
                 <img src="../imgs/DandelionBfN.webp" alt="dentedeleao">
@@ -50,13 +50,13 @@
                     e, por fim, o Dente-de-Leão, outro capanga que se tornou uma habilidade,
                     permitindo que você o controle para explodir e pegar os zumbis de surpresa.
                 </p>
-                <button class="bwild" onclick="mudarSilvestre()">Origem</button>
+                <button class="button-hero" onclick="mudarSilvestre()">Origem</button>
             </div>
         </section>
         <hr>
         <section class="zombies">
             <h2>Zumbis Extras</h2>
-            <div class="Goat" id="goat">
+            <div class="card-zumbis" id="goat">
                 <h2>Planador Cabra 3000</h2>
                 <img src="../imgs/Hover_Goat-3000GW2.webp" alt="planadorcabra3000">
                 <p> O Planador Cabra 3000, assim como o Tronco Flamejante, chegou ao Garden Warfare 2 na atualização
@@ -65,9 +65,9 @@
                     fazendo com que ele cause mais dano; Megalaser, que causa bastante dano às plantas atingidas;
                     e, por fim, a Cabra, que pode aumentar sua velocidade para se locomover mais rapidamente.
                 </p>
-                <button class="bgoat" onclick="mudarCabra()">Origem</button>
+                <button class="button-hero" onclick="mudarCabra()">Origem</button>
             </div>
-            <div class="Tv" id="tv" >
+            <div class="card-zumbis" id="tv" >
                 <h2>Cabeça de TV</h2>
                 <img src="../imgs/TV_HeadBfN.webp" alt="cabecadetv">
                 <img src="../imgs/Yeti_ImpBfN.webp" alt="yetizin">
@@ -80,7 +80,7 @@
                     pode ser controlado e explodir, mas causa congelamento,
                     deixando as plantas mais lentas.
                 </p>
-                <button class="btv" onclick="mudarTV()">Origem</button>
+                <button class="button-hero" onclick="mudarTV()">Origem</button>
             </div>
         </section>
     </main>

@@ -70,6 +70,23 @@ header h1, header p{
     color: white;
 }
 
+.button-hero{
+    background-color: #4f4f4f;
+    color: #fff;
+    transition: 0.3s;
+    border: transparent 0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.button-hero:hover{
+    background-color: #e3dede;
+    color: #000;
+    border: solid 1px;
+}
+
 footer{
     text-align: center;
 }
